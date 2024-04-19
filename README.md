@@ -4,7 +4,7 @@ Prof. Eylem Ekici
 Students: Mohamed Hambouta, Trey Wilis
 
 ## Structure
-This project implements an elevator control system for a four-story building as outlined in the ECE 3561 Project 3 Assignment for Spring 2024.
+This project implements an elevator control system for a four-story building as outlined in the ECE 3561 Final Project Assignment for Spring 2024.
 
 ### Components
 - **Elevator Controller**: Manages the movement and door operations of the elevator using input signals such as UP_REQ, DN_REQ, and GO_REQ.
