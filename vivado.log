@@ -4988,3 +4988,5 @@ open_wave_config {C:/FPGA/elevator_controller/project/TestBench_behav.wcfg}
 run 100 s
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 19 06:43:34 2024...
