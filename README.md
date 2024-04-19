@@ -1,7 +1,5 @@
-## Elevator Controller
-### Advanced Digital Design Final Project
+## Advanced Digital Design Final Project: Elevator Controller
 Prof. Eylem Ekici
-
 Students: Mohamed Hambouta, Trey Wilis
 
 ## Structure
@@ -27,10 +25,10 @@ This project implements an elevator control system for a four-story building as 
 - **ModelSim**: Used for running simulations and visually verifying signal behaviors and interactions.
 
 ## Testing
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/a12e2326-b3a7-4c25-88df-43286dff7880)
+![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/ebf59563-8edf-4e16-8886-5dde3de1d4fe)
 Visual test of the request sequence as specified by the assignment.
 
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/cfe5a420-11d7-4093-ba58-62e743cc3855)
+![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/43eeaa82-99ea-4cc3-9b33-03e3a638b990)
 Scenario test for simultaneous button presses.
 
 ![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/28122947-ae61-4980-9309-cde2e0209e9d)
