@@ -34,7 +34,7 @@ Scenario test for simultaneous button presses.
 ![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/28122947-ae61-4980-9309-cde2e0209e9d)
 Functionality test for the manual door open button.
 
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/f1e2f121-7165-41f1-a939-ac1018cda7cc)
+![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/92e75b03-42d7-431c-93ba-1516bef532e5)
 Operational test for the priority access button.
 
 For a more detailed explanation of each component, simulation results, and a discussion on the challenges faced, refer to the accompanying project report. (In progress - 90% done)
