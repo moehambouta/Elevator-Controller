@@ -23,7 +23,6 @@ This project implements an elevator control system for a four-story building as 
 ## Development Tools
 - **VHDL**: The project is developed using VHDL for both the controller and simulator logic as well as the test bench.
 - **Xilinx Environment**: Utilizes the Xilinx software suite for simulation and testing. 
-- **ModelSim**: Used for running simulations and visually verifying signal behaviors and interactions.
 
 ## Testing
 ![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/41278a09-5651-4cfa-b948-d199ed723df8)
