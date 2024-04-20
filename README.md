@@ -23,13 +23,3 @@ This project implements an elevator control system for a four-story building as 
 ## Development Tools
 - **VHDL**: The project is developed using VHDL for both the controller and simulator logic as well as the test bench.
 - **Xilinx Environment**: Utilizes the Xilinx software suite for simulation and testing. 
-
-## Testing
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/41278a09-5651-4cfa-b948-d199ed723df8)
-Visual test of the request sequence as specified by the assignment.
-
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/6488c2b9-9508-48d4-b0c6-dae6dc492cb7)
-Scenario test for simultaneous button presses.
-
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/a9069466-6d1d-4d79-be71-f9677ab514b8)
-Functionality test for the accessibility features: open door button / priority access button.
