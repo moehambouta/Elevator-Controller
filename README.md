@@ -33,5 +33,3 @@ Scenario test for simultaneous button presses.
 
 ![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/a9069466-6d1d-4d79-be71-f9677ab514b8)
 Functionality test for the accessibility features: open door button / priority access button.
-
-For a more detailed explanation of each component, simulation results, and a discussion on the challenges faced, refer to the accompanying project report. (In progress - 90% done)
