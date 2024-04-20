@@ -26,16 +26,13 @@ This project implements an elevator control system for a four-story building as 
 - **ModelSim**: Used for running simulations and visually verifying signal behaviors and interactions.
 
 ## Testing
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/ebf59563-8edf-4e16-8886-5dde3de1d4fe)
+![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/41278a09-5651-4cfa-b948-d199ed723df8)
 Visual test of the request sequence as specified by the assignment.
 
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/43eeaa82-99ea-4cc3-9b33-03e3a638b990)
+![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/6488c2b9-9508-48d4-b0c6-dae6dc492cb7)
 Scenario test for simultaneous button presses.
 
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/28122947-ae61-4980-9309-cde2e0209e9d)
-Functionality test for the manual door open button.
-
-![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/92e75b03-42d7-431c-93ba-1516bef532e5)
-Operational test for the priority access button.
+![image](https://github.com/moehambouta/Elevator-Controller/assets/74828685/a9069466-6d1d-4d79-be71-f9677ab514b8)
+Functionality test for the accessibility features: open door button / priority access button.
 
 For a more detailed explanation of each component, simulation results, and a discussion on the challenges faced, refer to the accompanying project report. (In progress - 90% done)
