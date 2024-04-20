@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestBench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestBench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="45.876000000000 s"></ZoomStartTime>
+      <ZoomEndTime time="100.076000000001 s"></ZoomEndTime>
+      <Cursor1Time time="46.000000000000 s"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="143"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/TestBench/POC" type="logic">
+      <obj_property name="ElementShortName">POC</obj_property>
+      <obj_property name="ObjectShortName">POC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/SYSCLK" type="logic">
+      <obj_property name="ElementShortName">SYSCLK</obj_property>
+      <obj_property name="ObjectShortName">SYSCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut0/UP_REQS" type="array">
+      <obj_property name="ElementShortName">UP_REQS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">UP_REQS[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut0/DN_REQS" type="array">
+      <obj_property name="ElementShortName">DN_REQS[3:1]</obj_property>
+      <obj_property name="ObjectShortName">DN_REQS[3:1]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut0/GO_REQS" type="array">
+      <obj_property name="ElementShortName">GO_REQS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">GO_REQS[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut0/PR_REQS" type="array">
+      <obj_property name="ElementShortName">PR_REQS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PR_REQS[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut0/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut0/door_status" type="other">
+      <obj_property name="ElementShortName">door_status</obj_property>
+      <obj_property name="ObjectShortName">door_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/OPEN_DOOR" type="logic">
+      <obj_property name="ElementShortName">OPEN_DOOR</obj_property>
+      <obj_property name="ObjectShortName">OPEN_DOOR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/CLOSE_DOOR" type="logic">
+      <obj_property name="ElementShortName">CLOSE_DOOR</obj_property>
+      <obj_property name="ObjectShortName">CLOSE_DOOR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ECOMP" type="logic">
+      <obj_property name="ElementShortName">ECOMP</obj_property>
+      <obj_property name="ObjectShortName">ECOMP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/EMVUP" type="logic">
+      <obj_property name="ElementShortName">EMVUP</obj_property>
+      <obj_property name="ObjectShortName">EMVUP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/EMVDN" type="logic">
+      <obj_property name="ElementShortName">EMVDN</obj_property>
+      <obj_property name="ObjectShortName">EMVDN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/EOPEN" type="logic">
+      <obj_property name="ElementShortName">EOPEN</obj_property>
+      <obj_property name="ObjectShortName">EOPEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/ECLOSE" type="logic">
+      <obj_property name="ElementShortName">ECLOSE</obj_property>
+      <obj_property name="ObjectShortName">ECLOSE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/EF" type="array">
+      <obj_property name="ElementShortName">EF[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EF[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/FLOOR_IND" type="array">
+      <obj_property name="ElementShortName">FLOOR_IND[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FLOOR_IND[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

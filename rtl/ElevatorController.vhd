@@ -45,9 +45,10 @@ architecture Behavioral of ElevatorController is
     signal GU, GD, ODI, ODU, ODD : STD_LOGIC := '0';
     signal DF, UF, REQS: STD_LOGIC_VECTOR (3 downto 0) := "0000";
     
+    signal PR_REQS, SYNC_PR_REQS : STD_LOGIC_VECTOR (3 downto 0) := "0000";
+    signal GO_REQS, SYNC_GO_REQS, DONE_REQ : STD_LOGIC_VECTOR (3 downto 0) := "0000";
     signal UP_REQS, SYNC_UP_REQS, UP_DONE_REQ : STD_LOGIC_VECTOR (2 downto 0) := "000";
     signal DN_REQS, SYNC_DN_REQS, DN_DONE_REQ : STD_LOGIC_VECTOR (3 downto 1) := "000";
-    signal GO_REQS, PR_REQS, SYNC_PR_REQS, SYNC_GO_REQS, DONE_REQ : STD_LOGIC_VECTOR (3 downto 0) := "0000";
 begin
 
     GO_REQS <= (SYNC_GO_REQS or GO_REQ) and DONE_REQ; -- go requests accumulator
@@ -56,10 +57,10 @@ begin
     PR_REQS <= (SYNC_PR_REQS or PR_REQ) and DONE_REQ; -- priority requests accumulator
     REQS <= ('0' & UP_REQS) or (DN_REQS & '0') or GO_REQS; -- all requests accumulator
     
-    -- UP and DN requests need to be marked complete only when direction matches
+    -- UP and DN requests to be marked complete under specific conditions
     DONE_REQ <= "1111" when door_status = CLOSED else not (EF);
-    UP_DONE_REQ <= "111" when state = MOVING_DN else DONE_REQ(2 downto 0);
-    DN_DONE_REQ <= "111" when state = MOVING_UP else DONE_REQ(3 downto 1) ;
+    UP_DONE_REQ <= "111" when state = MOVING_DN and EF /= "0001" else DONE_REQ(2 downto 0);
+    DN_DONE_REQ <= "111" when state = MOVING_UP and EF /= "1000" else DONE_REQ(3 downto 1) ;
 
     -- signal used to check for requests above
     UF <= "1110" when EF = "0001" else
