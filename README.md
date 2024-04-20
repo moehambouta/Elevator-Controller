@@ -1,7 +1,7 @@
 ## Advanced Digital Design Final Project: Elevator Controller
 Prof. Eylem Ekici
 
-Students: Mohamed Hambouta, Trey Wilis
+Students: Mohamed Hambouta, Trey Willis
 
 ## Structure
 This project implements an elevator control system for a four-story building as outlined in the ECE 3561 Final Project Assignment for Spring 2024.
